@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "skills": "Skills",
+    "education": "Educación",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title_line1": "Full-Stack",
+    "title_line2": "Developer.",
+    "name": "Tomás Lonati",
+    "location": "Buenos Aires, Argentina",
+    "cta_projects": "Ver proyectos",
+    "cta_contact": "Contacto"
+  },
+  "about": {
+    "section_label": "Sobre mí",
+    "bio": "Soy desarrollador Full-Stack con experiencia construyendo productos web de punta a punta. Me apasiona diseñar sistemas robustos y crear soluciones que escalen, con enfoque en producto y visión a largo plazo.",
+    "stats": {
+      "projects_num": "5+",
+      "projects_label": "Proyectos",
+      "apis_num": "17",
+      "apis_label": "APIs integradas",
+      "experience_num": "3+",
+      "experience_label": "Años de experiencia",
+      "languages_num": "5",
+      "languages_label": "Idiomas (Av. Andina)"
+    }
+  },
+  "experience": {
+    "section_label": "Experiencia",
+    "jobs": [
+      {
+        "id": "insurhub",
+        "role": "Full Stack Developer — Integraciones",
+        "company": "Insurhub",
+        "type": "Part-time",
+        "period": "Octubre 2025 — Presente",
+        "description": "Desarrollo de APIs REST con Node.js para la integración con más de 17 aseguradoras. Refactorización del motor de cotización desde arquitectura low-code a un stack moderno con React + Node.js. Diseño y optimización de bases de datos PostgreSQL con foco en seguridad y buenas prácticas de control de versiones."
+      },
+      {
+        "id": "freelance-fullstack",
+        "role": "Desarrollador Full-Stack",
+        "company": "Freelance",
+        "type": "Freelance",
+        "period": "Marzo 2025 — Presente",
+        "description": "Desarrollo de aplicaciones full-stack con React, Node.js y PostgreSQL. Diseño e implementación de APIs RESTful y esquemas de base de datos normalizados para ofrecer soluciones escalables y a medida para cada cliente."
+      },
+      {
+        "id": "freelance-web",
+        "role": "Desarrollador Web",
+        "company": "Freelance",
+        "type": "Freelance",
+        "period": "2023 — Presente",
+        "description": "Desarrollo de sitios web, catálogos y rediseños con HTML, CSS, JavaScript y WordPress. Enfoque en diseño responsivo, experiencia de usuario óptima en cualquier dispositivo y comunicación directa con el cliente."
+      },
+      {
+        "id": "hielo",
+        "role": "Operador de Ventas Turísticas",
+        "company": "Hielo & Aventura S.A., El Calafate",
+        "type": "Temporario",
+        "period": "Dic 2023 — Mar 2024 | Dic 2024 — Mar 2025",
+        "description": "Atención al cliente bilingüe (español/inglés) en una de las empresas turísticas más reconocidas de la Patagonia. Gestión de reservas presenciales, telefónicas y online."
+      }
+    ]
+  },
+  "projects": {
+    "section_label": "Proyectos",
+    "view_project": "Ver proyecto",
+    "view_github": "GitHub",
+    "items": [
+      {
+        "id": "aventura-andina",
+        "name": "Aventura Andina",
+        "short": "Plataforma eCommerce + backoffice para agencia de viajes en la Patagonia.",
+        "description": "Solución completa para una agencia de viajes: un eCommerce con motor de disponibilidad en tiempo real, gestión de reservas y pasajeros, pagos internacionales, emails automáticos y generación de vouchers. Tomé todas las decisiones de arquitectura, lideré el equipo de UX y entregué el sitio disponible en 5 idiomas.",
+        "stack": ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Supabase", "Resend", "Vercel"],
+        "link": "https://www.aventura-andina.tur.ar/es",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "seguromarket",
+        "name": "Seguro Market",
+        "short": "Plataforma de cotización de seguros con múltiples APIs de aseguradoras.",
+        "description": "Plataforma que permite a los usuarios comparar coberturas y precios de seguros en tiempo real, integrada con las APIs de múltiples aseguradoras. Backend en Node.js con procesamiento concurrente de datos y base de datos PostgreSQL.",
+        "stack": ["Vue.js", "Node.js", "PostgreSQL", "Apache"],
+        "link": "https://seguromarket.com.ar/cotizador/cotizador",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "grupo-winding",
+        "name": "Grupo Winding",
+        "short": "Sitio catálogo con cotizador de consumo energético interactivo.",
+        "description": "Sitio web para una empresa de equipamiento energético industrial. Incluye un cotizador interactivo que calcula el consumo energético del usuario y le recomienda la configuración óptima de paneles solares.",
+        "stack": ["React", "Tailwind CSS"],
+        "link": "https://www.grupowinding.com/",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "signalink",
+        "name": "SignaLink APP",
+        "short": "App mobile para traducir lenguaje de señas a texto y voz mediante IA.",
+        "description": "Aplicación mobile para personas con discapacidades del habla. Se conecta vía Bluetooth a un guante con sensores flex que detecta el lenguaje de señas y lo convierte a texto/voz usando la API de OpenAI. Incluye chats grupales e individuales. Desarrollada como proyecto final universitario en UADE.",
+        "stack": ["React Native", "MongoDB", "MySQL", "Python", "Expo", "Google Cloud", "OpenAI API"],
+        "link": null,
+        "github": "https://github.com/TadeMaddonni/signalink-app",
+        "category": "Académico"
+      },
+      {
+        "id": "sinplagas",
+        "name": "Sin Plagas",
+        "short": "Landing page para empresa de control de plagas.",
+        "description": "Sitio web para empresa de fumigación y control de plagas. Diseño limpio y profesional orientado a la conversión, con información de servicios, cobertura geográfica y contacto directo.",
+        "stack": ["React"],
+        "link": "https://sinplagas.ar",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "airbnb-db",
+        "name": "Multi-DB App (Airbnb-style)",
+        "short": "App de consola que utiliza 5 motores de base de datos en simultáneo.",
+        "description": "Proyecto universitario para la materia Ingeniería de Datos II. Implementa una plataforma de alquiler de propiedades usando simultáneamente PostgreSQL, Redis, Cassandra, Neo4J y MongoDB, demostrando distintos patrones de persistencia y acceso a datos.",
+        "stack": ["PostgreSQL", "Redis", "Cassandra", "Neo4J", "MongoDB"],
+        "link": null,
+        "github": "https://github.com/tomaslonati/airbnb",
+        "category": "Académico"
+      }
+    ]
+  },
+  "skills": {
+    "section_label": "Skills",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Responsive Design", "UX/UI", "Figma", "React Native"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js (Express)", "REST APIs", "PostgreSQL", "MongoDB", "Redis", "Cassandra", "Python"]
+      },
+      {
+        "name": "Herramientas & Cloud",
+        "items": ["Git", "GitHub", "AWS", "Vercel", "Supabase", "Expo", "Ferozo"]
+      }
+    ]
+  },
+  "education": {
+    "section_label": "Educación",
+    "items": [
+      {
+        "id": "uade",
+        "title": "Licenciatura en Gestión en Tecnología de la Información",
+        "institution": "UADE — Universidad Argentina de la Empresa",
+        "period": "2023 — Presente",
+        "detail": "31 de 40 materias completadas."
+      },
+      {
+        "id": "aws",
+        "title": "AWS Academy Cloud Architecting",
+        "institution": "AWS Academy",
+        "period": "2025",
+        "detail": "Diseño de arquitecturas cloud, servicios AWS, alta disponibilidad, escalabilidad y seguridad."
+      }
+    ]
+  },
+  "contact": {
+    "section_label": "¿Trabajamos juntos?",
+    "tagline": "Listo para sumarme a un equipo y construir algo grande.",
+    "email_label": "Escribime",
+    "email": "tomaslonati@gmail.com"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

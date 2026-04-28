@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title_line1": "Full-Stack",
+    "title_line2": "Developer.",
+    "name": "Tomás Lonati",
+    "location": "Buenos Aires, Argentina",
+    "cta_projects": "View projects",
+    "cta_contact": "Get in touch"
+  },
+  "about": {
+    "section_label": "About me",
+    "bio": "I'm a Full-Stack Developer with experience building web products end-to-end. I'm passionate about designing robust systems and creating solutions that scale, with a product mindset and long-term vision.",
+    "stats": {
+      "projects_num": "5+",
+      "projects_label": "Projects",
+      "apis_num": "17",
+      "apis_label": "APIs integrated",
+      "experience_num": "3+",
+      "experience_label": "Years of experience",
+      "languages_num": "5",
+      "languages_label": "Languages (Av. Andina)"
+    }
+  },
+  "experience": {
+    "section_label": "Experience",
+    "jobs": [
+      {
+        "id": "insurhub",
+        "role": "Full Stack Developer — Integrations",
+        "company": "Insurhub",
+        "type": "Part-time",
+        "period": "October 2025 — Present",
+        "description": "Building REST APIs with Node.js integrated with 17+ insurance providers. Refactored the quotation engine from a low-code architecture to a modern React + Node.js stack. Designed and optimized PostgreSQL databases, enforcing security best practices and clean version control."
+      },
+      {
+        "id": "freelance-fullstack",
+        "role": "Full-Stack Developer",
+        "company": "Freelance",
+        "type": "Freelance",
+        "period": "March 2025 — Present",
+        "description": "Built full-stack applications using React, Node.js, and PostgreSQL. Designed and implemented RESTful APIs and normalized database schemas to deliver scalable, tailored solutions for real clients."
+      },
+      {
+        "id": "freelance-web",
+        "role": "Web Developer",
+        "company": "Freelance",
+        "type": "Freelance",
+        "period": "2023 — Present",
+        "description": "Developed websites, catalogs, and redesigns using HTML, CSS, JavaScript, and WordPress. Focused on responsive design, optimal UX across all devices, and direct client communication."
+      },
+      {
+        "id": "hielo",
+        "role": "Tour Sales Operator",
+        "company": "Hielo & Aventura S.A., El Calafate",
+        "type": "Seasonal",
+        "period": "Dec 2023 — Mar 2024 | Dec 2024 — Mar 2025",
+        "description": "Bilingual (Spanish/English) customer service at one of Patagonia's most recognized tourism companies. Managed in-person, phone, and online reservations."
+      }
+    ]
+  },
+  "projects": {
+    "section_label": "Projects",
+    "view_project": "View project",
+    "view_github": "GitHub",
+    "items": [
+      {
+        "id": "aventura-andina",
+        "name": "Aventura Andina",
+        "short": "eCommerce + backoffice platform for a Patagonian travel agency.",
+        "description": "Full-stack platform for a travel agency: real-time availability engine, reservation and passenger management, international payments, automated emails, and voucher generation. Led all architectural decisions, managed the UX team, and delivered a site available in 5 languages.",
+        "stack": ["React", "Node.js", "PostgreSQL", "Tailwind CSS", "Supabase", "Resend", "Vercel"],
+        "link": "https://www.aventura-andina.tur.ar/es",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "seguromarket",
+        "name": "Seguro Market",
+        "short": "Insurance quotation platform with real-time multi-provider API integration.",
+        "description": "Platform that lets users compare insurance coverage and prices in real time, integrated with multiple insurer APIs. Node.js backend with concurrent data processing and PostgreSQL database.",
+        "stack": ["Vue.js", "Node.js", "PostgreSQL", "Apache"],
+        "link": "https://seguromarket.com.ar/cotizador/cotizador",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "grupo-winding",
+        "name": "Grupo Winding",
+        "short": "Product catalog site with interactive energy consumption calculator.",
+        "description": "Website for an industrial energy equipment company, featuring an interactive calculator that estimates the user's energy consumption and recommends the optimal solar panel configuration.",
+        "stack": ["React", "Tailwind CSS"],
+        "link": "https://www.grupowinding.com/",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "signalink",
+        "name": "SignaLink APP",
+        "short": "Mobile app that translates sign language to text and speech using AI.",
+        "description": "Mobile application for people with speech disabilities. Connects via Bluetooth to a flex-sensor glove that detects sign language and converts it to text/speech using the OpenAI API. Features group and individual chats. Built as a university final project at UADE.",
+        "stack": ["React Native", "MongoDB", "MySQL", "Python", "Expo", "Google Cloud", "OpenAI API"],
+        "link": null,
+        "github": "https://github.com/TadeMaddonni/signalink-app",
+        "category": "Academic"
+      },
+      {
+        "id": "sinplagas",
+        "name": "Sin Plagas",
+        "short": "Landing page for a pest control company.",
+        "description": "Website for a pest control company. Clean, professional design focused on conversion, presenting services, geographic coverage, and direct contact options.",
+        "stack": ["React"],
+        "link": "https://sinplagas.ar",
+        "github": null,
+        "category": "Freelance"
+      },
+      {
+        "id": "airbnb-db",
+        "name": "Multi-DB App (Airbnb-style)",
+        "short": "Console app using 5 database engines simultaneously.",
+        "description": "University project for the Data Engineering II course. Implements a property rental platform using PostgreSQL, Redis, Cassandra, Neo4J, and MongoDB simultaneously, showcasing different data persistence and access patterns.",
+        "stack": ["PostgreSQL", "Redis", "Cassandra", "Neo4J", "MongoDB"],
+        "link": null,
+        "github": "https://github.com/tomaslonati/airbnb",
+        "category": "Academic"
+      }
+    ]
+  },
+  "skills": {
+    "section_label": "Skills",
+    "categories": [
+      {
+        "name": "Frontend",
+        "items": ["React", "TypeScript", "JavaScript", "Tailwind CSS", "Responsive Design", "UX/UI", "Figma", "React Native"]
+      },
+      {
+        "name": "Backend",
+        "items": ["Node.js (Express)", "REST APIs", "PostgreSQL", "MongoDB", "Redis", "Cassandra", "Python"]
+      },
+      {
+        "name": "Tools & Cloud",
+        "items": ["Git", "GitHub", "AWS", "Vercel", "Supabase", "Expo", "Ferozo"]
+      }
+    ]
+  },
+  "education": {
+    "section_label": "Education",
+    "items": [
+      {
+        "id": "uade",
+        "title": "Bachelor's Degree in Information Technology Management",
+        "institution": "UADE — Universidad Argentina de la Empresa",
+        "period": "2023 — Present",
+        "detail": "31 of 40 courses completed."
+      },
+      {
+        "id": "aws",
+        "title": "AWS Academy Cloud Architecting",
+        "institution": "AWS Academy",
+        "period": "2025",
+        "detail": "Cloud architecture design, AWS services, high availability, scalability, and security best practices."
+      }
+    ]
+  },
+  "contact": {
+    "section_label": "Let's work together.",
+    "tagline": "Ready to join a team and build something great.",
+    "email_label": "Send me an email",
+    "email": "tomaslonati@gmail.com"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
